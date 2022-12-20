@@ -1,0 +1,251 @@
+*{
+    padding: 0px ;
+    margin: 0px ;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+a{display: inline-block;}
+
+header{
+    padding: 35px 0px ;
+position: sticky;
+top: 0%;
+z-index: 1;
+    background-color: #fff;
+}
+
+
+.flex-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a:hover{
+text-decoration: none !important;
+color: none;}
+
+  ul,
+li,
+ol {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+header ul li{display: inline-block;
+    padding: 0px 15px ;
+
+
+}
+
+
+.ankar-1{
+    font-size: 20px ;
+    font-weight: bold;}
+
+.home li a{color:#737373;
+
+}
+  
+.home li a:hover{
+    color: black;}
+
+    
+
+
+.ikan-1{
+    font-size: 12px;
+    font-weight: bold;
+    padding-left:7px ;
+
+}
+
+
+body{
+    background-color: #f2f6fc;
+}
+
+
+.ul:nth-child(5){
+    background-color: blueviolet;
+}
+
+/* section-1 */
+.section-1{padding: 100px 0px ; 
+    background-color: #fff;
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 81% 98%, 31% 99%, 0 96%);
+
+}
+
+.font{
+    font-size: 18px ;
+    font-weight: bold;
+}
+
+.font-1{
+    background-color:#dae7fb ;
+    color: blue;
+    font-weight: bold;
+   border: none;
+   margin-left: 20px ;
+    font-size: 18px;
+
+}
+
+.font-1:hover{
+  background-color: #dae7fb;
+  color: blue;
+}
+
+.Build h1{
+    font-size: 35px;
+}
+
+.Build{
+    padding-top: 35px;
+}
+.Build p{
+font-size: 18px;
+padding: 10px 0px ;
+}
+
+/* .section-2 */
+
+
+
+.section-2{
+    padding: 100px 0px ;
+    clip-path: polygon(20% 3%, 74% 4%, 100% 0, 100% 100%, 0 100%, 0 0);
+   
+    background-color: #f2f6fc;
+
+}
+
+ .dyemo div{
+        background-color: #dae7fb;
+        padding: 5px;
+      
+}
+
+
+.dyemo{
+    margin-bottom: 30px;
+}
+
+
+.img-1{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 2px 62px -38px #000;
+    transition-duration: 0.8s;
+
+}
+
+.img-1:hover{
+    transform: scale(0.9);
+      
+}
+
+
+.top{
+    margin-top: 35px;}
+
+    /* section-3 */
+
+.section-3{
+    padding: 300px 0px ;
+    /* background-color: #737373; */
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 72% 100%, 27% 100%, 0 95%);
+   
+
+}
+
+.brokan{
+    font-size: 15px;
+    color: #dfdfdf;
+    font-weight: bold;
+}
+
+
+.Company-1-2    {
+   font-size:16px ;
+   margin-bottom: 20px ;
+
+}
+
+.boxno{
+    box-shadow: 3px 1px 26px -18px;
+}
+
+    /* section-3 */
+
+
+    .section-4{padding: 150px 0px ;
+        clip-path: polygon(0 0, 100% 0, 100% 93%, 72% 100%, 27% 100%, 0 95%);
+
+       }
+
+
+       .section-5{
+        padding: 100px 0px ;
+        background-color: #ffff;}
+
+        .kinkon{margin-top: 30px ;
+
+        }
+
+        .kinkon span{
+color: #c5ccd6;
+        }
+        
+
+        .kinkon p{
+            color:#999fa8 ;
+            font-size: 15px;
+        }
+
+        .text{
+            text-align: center;
+            margin-top:30px ;
+
+        }
+
+        footer{
+padding: 100px 0px ;
+        }
+
+        .PRODUCT{
+            margin-bottom: 20px;
+            font-size: 13px;
+            color: #c1b5b8;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+         .yoular-1 li a{
+            line-height: 37px;
+            color: #c1b5b8;
+            font-size: 13px;
+            
+        }
+
+        .yoular-1:hover a{
+            text-decoration: underline;
+
+        }
+
+        .ikan-2{
+    font-weight: bold;
+    font-size: 13px;
+    color:  #c1b5b8;
+        }
+
+        .ikan-1 span{font-size: 20px ;
+          margin-right: 10px ;
+            color:  #c1b5b8;
+
+        }

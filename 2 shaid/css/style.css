@@ -1,0 +1,1000 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+
+ul,li.ol{
+  list-style: none;
+}
+
+
+
+a {
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+.header-1 {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+.home-1 {
+  padding: 0px 10px;
+}
+
+.home {
+  position: relative;
+  transition: all 1s;
+}
+.home::after {
+  position: absolute;
+  content: "";
+  background: #f71c52;
+  height: 2px;
+  width: 20px;
+  left: 7px;
+}
+.home:hover {
+  box-shadow: -1px 2px 31px -14px;
+  background-color: #fff;
+}
+
+.home-1 {
+  position: relative;
+  font-size: 14px;
+}
+.home-1:hover ::after {
+  position: absolute;
+  content: "";
+  background: #f71c52;
+  height: 2px;
+  width: 30px;
+  left: 20px;
+  bottom: 0;
+}
+
+.home-1 a:hover {
+  background-color: #fff;
+  transition: all 1s;
+  box-shadow: -1px 2px 31px -14px;
+}
+
+.home-2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 11px;
+}
+
+.home-3 {
+  position: relative;
+  color: #f71c52 !important;
+}
+
+.home-3::after {
+  background-color: #e5e5e5;
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 51px;
+  top: -15px;
+  right: -10px;
+}
+
+.sarc {
+  color: #f71c52 !important;
+}
+
+.eleste {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Pricing {
+  background-color: #e7c908;
+}
+
+.mana {
+  color: #f71c52;
+}
+
+.span-1 {
+  font-size: 11px;
+}
+/* 
+section-1 */
+
+.Second-2-2 {
+  background-image: url(../images/bgn-slider-02.jpg);
+  background-size: cover;
+  background-position: right;
+  padding: 190px 0px;
+}
+
+.Seco-1-1 {
+  background-image: url(../images/bgn-slider-01.jpg);
+  background-size: cover;
+  padding: 190px 0px;
+}
+
+/* fast */
+
+.care {
+  font-size: 70px;
+  color: #f71c52;
+}
+
+.div-1 {
+  font-size: 65px;
+}
+
+.hard p {
+  font-size: 20px;
+}
+
+.hard-1 p {
+  font-size: 20px;
+}
+
+.hard-1 {
+  text-align: right;
+}
+
+.borr-1 {
+  background-color: #f71c52;
+  border: 2px solid #f71c52;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.borr-1:hover {
+  color: #fff;
+  transform: translate(0, -4px);
+}
+
+.borr-2 {
+  border: 2px solid black;
+  color: black !important;
+  transition: all 0.5s;
+}
+
+.borr-2:hover {
+  color: #fff !important;
+  background-color: black;
+  transform: translate(0, -4px);
+}
+
+.celeste span {
+  padding: 0px 3px;
+}
+
+/* .section-2 */
+
+.section-2 {
+  margin-top: -19px;
+}
+
+.Consultancy {
+  background-color: #f71c52;
+  padding: 32px 30px;
+}
+
+.Consultancy span {
+  font-size: 27px;
+}
+
+.Consultancy p {
+  font-size: 14px;
+}
+
+.Consultancy a {
+  background-color: #fff;
+
+  font-size: 14px;
+  padding: 8px 19px;
+  color: #000000;
+}
+
+.center-1 {
+  padding: 43px 30px;
+  margin-top: -22px;
+  background-color: #b40d4a;
+  box-shadow: 0 3px 20px rgb(0 0 0 / 25%);
+}
+
+/* section-3 */
+
+.section-3 {
+  padding: 100px 10px;
+}
+
+.img-2 {
+  position: relative;
+}
+
+.img-3 {
+  background-color: rgb(180, 13, 74, 0.7);
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: all 1s;
+  top: 0;
+}
+.img-3:hover {
+  opacity: 2;
+}
+
+.img-3 h5 {
+  font-size: 14px;
+}
+
+.HAPPY span:nth-child(1) {
+  color: #000;
+  font-size: 12px;
+}
+.HAPPY span:nth-child(2) {
+  background-color: #bebebe;
+
+  width: 34%;
+  vertical-align: middle;
+  height: 1px;
+}
+
+.child {
+  font-size: 27px;
+  color: red;
+}
+
+.HAPPY {
+  background-color: #ededed;
+  padding: 10px 20px;
+}
+
+.HAPPY p {
+  font-size: 14px;
+}
+
+.section-4 {
+  background-image: url(../images/bgn-quote.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 200px 0px;
+background-position: right;
+}
+
+.mission p {
+  font-size: 20px;
+}
+
+/* .section-5 */
+
+.section-5 {
+  padding: 66px 0px;
+  background-color: #f71c52;
+  background-image: linear-gradient(90deg, #f71c52 86.5%, #fff 20%);
+}
+
+.together h2 {
+  font-size: 58px;
+}
+
+.your {
+  font-weight: 100;
+  color: #fff;
+}
+
+.together p {
+  font-size: 20px;
+}
+
+.ankar-1 {
+  background-color: #fff;
+  border: 2px solid #fff;
+  transition: all 0.5s;
+}
+
+.ankar-1:hover {
+  transform: translate(0, -4px);
+}
+
+.ankar-2 {
+  border: 2px solid #ffff;
+  color: #fff !important;
+  transition: all 0.5s;
+}
+
+.ankar-2:hover {
+  background-color: #ffff;
+  color: black !important;
+  transform: translate(0, -4px);
+}
+.quote {
+  font-size: 46px;
+  color: #f83263;
+}
+
+.you {
+  padding: 0px 30px;
+}
+
+.to-1 {
+  margin-top: -100px;
+}
+
+/* section-6 */
+
+.ingdghai img {
+  object-fit: cover;
+}
+
+.ingdghai {
+  position: relative;
+}
+
+.principles {
+  position: absolute;
+  top: 43%;
+  left: 20%;
+}
+
+.coaching {
+  font-size: 60px;
+  color: #f71c52;
+}
+
+.numbers {
+  font-weight: 100;
+  font-size: 60px;
+}
+
+.clients span {
+  font-size: 62px;
+  font-weight: 100;
+
+  color: red;
+}
+
+.clients .for {
+  font-size: 21px;
+}
+
+.goals {
+  background-color: red;
+  width: 25px;
+  height: 2px;
+  display: inline-block;
+}
+
+.clients .bject {
+  font-size: 12px;
+}
+
+/* .section-7 */
+
+.section-7 {
+  padding: 100px 10px;
+}
+
+.Latest h2 {
+  font-size: 54px;
+  color: #f71c52;
+}
+
+.blog-1 {
+  color: #000;
+  background-color: #f71c52;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.blog-1:hover {
+  color: #fff;
+  transform: translate(0, -4px);
+}
+.img-6 {
+  position: relative;
+}
+
+.color-1 {
+  background-color: rgb(180, 13, 74, 0.7);
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.color-1:hover {
+  opacity: 1;
+}
+
+.plus {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  transition: all 0.5s;
+  background-color: red;
+}
+
+.img-6:hover .plus {
+  color: #000;
+  transform: translate(0, -4px);
+  background-color: #fff;
+}
+
+.Thoughts {
+  color: #f71c52;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 23px;
+}
+
+.Thoughts:hover {
+  color: black;
+}
+
+.nation {
+  background-color: #ededed;
+  padding: 17px 14px;
+}
+
+.nation p {
+  font-size: 14px;
+}
+
+.people {
+  font-size: 13px;
+}
+
+.people span {
+  padding: 0px 3px;
+}
+
+.people .colo-1-1 {
+  color: #f71c52;
+}
+
+.Thoughts-1:hover {
+  transition: all 1s;
+  box-shadow: 1px 3px 35px -15px;
+}
+
+/* .section-8 */
+
+.section-8 {
+  background-image: url(../images/bgn-courses.jpg);
+  padding-top: 85px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.gsgdyewgd {
+  width: 84% !important;
+  margin-left: 242px;
+  background-color: #f71c52;
+  margin-top: 100px;
+  margin-top: 324px;
+}
+
+.BASIC {
+  font-size: 13px;
+  color: #ffff;
+}
+
+.COURSE {
+  width: 20%;
+  background-color: #f94975;
+  height: 1px;
+  vertical-align: middle;
+
+  display: inline-block;
+}
+
+.start h3 {
+  font-weight: 100;
+}
+
+.start p {
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.start a {
+  color: #000;
+  transition: all 0.2s;
+}
+
+.start a:hover {
+  transform: translate(0, -4px);
+  color: black;
+}
+
+.coac-1 {
+  font-size: 50px;
+}
+
+.best-1-1 {
+  font-size: 50px;
+
+  font-weight: 100;
+}
+
+/* section-9 */
+
+.section-9 {
+  padding-top: 60px;
+}
+
+.line-2 {
+  background-color: #f71c52;
+  width: 10%;
+  height: 2px;
+}
+
+.uccess-2 span {
+  font-size: 25px;
+  color: #676767;
+  font-weight: 100;
+}
+
+.uccess-2 p {
+  font-size: 15px;
+}
+
+.being a {
+  color: #fff;
+  background-color: #f71c52;
+}
+.being a:hover {
+  color: #ffff;
+}
+.being span {
+  padding: 11px 20px;
+
+  font-size: 18px;
+  background-color: #de194a;
+}
+
+.span-2 {
+  font-size: 63px !important;
+
+  display: inline-block;
+  border: 2px solid #f83263;
+  border-radius: 99px;
+  color: #f83263;
+  transition: all 0.5s;
+}
+
+.span-2:hover {
+  background-color: #000;
+  color: #ffff;
+}
+
+.div-2-1 {
+  border: 2px solid red;
+}
+
+/* .section-10 */
+
+.section-11 {
+  background-image: url(../images/bgn-get-started.jpg);
+  padding: 150px 0px;
+  background-position: right;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.noe-2 h3 {
+  font-size: 60px;
+  color: #f71c52;
+}
+
+.noe-2 span {
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 27px;
+}
+
+.noe-2 p {
+  font-size: 19px;
+}
+
+.ankar-3 a {
+  background-color: #f71c52;
+}
+
+.ankar-3 span {
+  padding: 17px 21px;
+  font-size: 18px;
+  background-color: #de194a;
+}
+
+.ankar-3:hover {
+  transform: translate(0, -4px);
+}
+
+.ankar-3 {
+  transition: all 0.5s;
+}
+
+.king-1 {
+  background-color: #f71c52;
+  padding: 34px 45px;
+  line-height: 54px;
+  font-size: 14px;
+  margin-top: -23px;
+}
+
+.king-1 .este {
+  font-size: 29px;
+  font-weight: 100;
+}
+
+.king-1 span {
+  color: #fff;
+}
+
+.mana-1 {
+  background-color: #f83263;
+  width: 108%;
+  height: 1px;
+}
+
+.king-1 span:hover {
+  color: black;
+}
+
+
+
+
+
+
+/* footer */
+
+footer{
+  padding-top:70px;
+  background-color:black ;
+
+}
+
+.footar-1-1 h4{
+font-weight: 100;}
+
+.footar-1-1 span{
+  color: #ffff;
+  line-height: 32px;
+}
+
+.our{
+  color: #f71c52;
+  font-size: 21px ;
+}
+
+.our:hover{
+  color: #fff;
+}
+
+.Kings{font-size: 13px;}
+
+
+.line-1-2{
+  background-color: #f71c52;;
+  width: 10%;
+  height: 2px ;
+}
+
+
+.joh-joh{
+ flex-wrap: wrap; 
+}
+
+.font-2{
+  font-weight: 100;
+}
+
+.Management a{
+  color: #fff;
+  line-height: 33px;
+}
+
+.Management a:hover{
+  color: #f83263;
+}
+
+.tination span{
+  color: #727272;
+  font-size: 13px;
+
+}
+
+.tination p{
+font-size: 14px ;
+}
+
+.tination p:hover{
+  color: #f71c52 !important;
+}
+
+.facebook{
+  color: #f71c52;
+  font-size: 30px;
+}
+
+.facebook .us{
+  font-size: 17px;
+}
+
+
+.lin-5{
+  background-color: rgb(107, 106, 106);
+  width: 100%;
+  height: 1px ;
+}
+
+.BoldThemes-1 li, a{
+  display: inline-block;
+
+}
+
+.opyr-1{
+  background-color: rgba(247, 28, 82, 1);
+}
+
+.BoldThemes-1 a{
+  color: #fff;
+  padding: 0px 15px;
+}
+
+.BoldThemes-1 a:hover{
+  color: rgb(181, 172, 172) !important;
+}
+
+.opyr-1 span{
+  color: #fff;
+}
+
+.nobdi{
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.hold-1{
+  padding: 35px 35px ;
+}
+
+
+
+@media (max-width: 1199px) {
+  .Pricing{
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .Pricing{
+    display: none;
+  }
+
+  .top-1{
+    margin-top: 20px;
+  }
+
+  .Consultancy{
+    margin-top: 20px;
+  }
+
+  .section-5{
+    background-image: none;
+  }
+
+  .to-1{
+    margin-top: 0;
+  }
+
+  .together{
+    margin-bottom: 20px;
+  }
+
+  
+  
+  .blog-1 {
+    width: 100%;
+  }
+  
+  .find-1{
+    width: 100%;
+    text-align: center;
+  }
+
+  .Thoughts-1{
+    margin-top: 20px;
+  }
+
+  .gsgdyewgd{
+    margin:  0 auto;
+    width: 100% !important;
+    }
+    
+    .start{
+    margin-top: 20px ;
+    }
+
+    .uccess-2{
+      margin-bottom: 20px ;
+    }
+
+    .hold-1{
+ padding:0 !important;
+ margin: 20px 0;
+    }
+
+    .king-1{
+      margin-top: 20px;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+  .Pricing{
+    display: none;
+  }
+
+  .noe-2 h3{
+    font-size: 40px;
+  }
+
+  .Management{
+    margin-bottom: 20px ;
+  }
+
+  .hard-1{
+    text-align: center;
+  }
+
+  .coaching {
+    font-size: 35px;
+  padding-top: 20px;}
+
+  .numbers {
+    font-size: 42px;}
+
+    .together h2 {
+      font-size: 45px;}
+
+
+  .coac-1 {
+  font-size: 40px;}
+
+  .best-1-1 {
+    font-size: 34px;
+  }
+
+
+ 
+  .noe-2 span{
+    font-size: 40px;
+  }
+
+  .care{
+    font-size: 45px;
+  }
+
+  .hard{
+    text-align: center;
+  }
+
+  .div-1{
+    font-size: 30px;
+  }
+
+
+  .borr-1{
+    width: 100%;
+    text-align: center;
+
+  }
+
+  .borr-2{
+    width: 100%; 
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .opyr-1{
+
+
+  flex-wrap: wrap-reverse;}
+
+
+  .being a{
+    width: 100%;
+  }
+
+
+  .king-1{
+    margin-top: 20px;
+  }
+
+
+
+
+
+
+
+  .hold-1{
+    padding:0 !important;
+       }
+
+  .uccess-2{
+    margin-bottom: 20px ;
+  }
+
+  .start{
+  
+    margin-top: 20px ;
+  }
+
+  .coaching{
+    text-align: center;
+  }
+
+  .numbers{
+    text-align: center;
+  }
+
+  .Thoughts-1{
+    margin-top: 20px;
+  }
+
+.gsgdyewgd{
+margin:  0 auto;
+width: 100% !important;
+}
+
+
+
+.Consultancy{
+  margin-top: 20px;
+}
+
+.top-1{
+  margin-top: 20px;
+}
+
+.ankar-2{
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.ankar-1{
+  width: 100%;
+  text-align: center;
+}
+
+
+.to-1{
+  margin-top: 0;
+}
+.section-5{
+  background-image: none;
+}
+
+.blog-1 {
+  width: 100%;
+}
+
+.find-1{
+  width: 100%;
+  text-align: center;
+}
+
+
+}

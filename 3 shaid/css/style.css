@@ -1,0 +1,590 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+.header-1 nav {
+  z-index: 99 !important;
+}
+
+.hed-1 a {
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.hed-1 .meet {
+  background-color: #f4b200;
+  border-radius: 24px;
+  padding: 4px 19px !important;
+}
+
+/* .section-1 */
+
+.section-1 {
+  background-image: url(../images/Screenshot_2.png);
+  padding: 180px 0px;
+  background-size: cover;
+  top: 0 !important;
+  width: 100%;
+}
+
+.sec-1 h1 {
+  font-size: 50px !important;
+}
+
+.sec-1 p {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.Morbi {
+  background-color: #f4b200;
+  display: inline-block;
+  border-radius: 40px;
+}
+
+.Morbi span:nth-child(1) {
+  font-size: 20px;
+}
+
+.Morbi span:nth-child(2) {
+  opacity: 0.5;
+
+  transform: translateX(0) rotate(0.02deg);
+}
+
+.section-2 {
+  padding: 100px 10px;
+}
+
+.Help-1 h2 {
+  font-size: 39px;
+}
+
+.Help-1 span {
+  color: #bababa !important;
+  font-size: 30px;
+}
+
+.Where-go {
+  text-align: center;
+}
+
+.Where-go p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.section-3 {
+  padding: 100px 0px;
+}
+
+.brokan {
+  color: rgb(12, 8, 8, 0.7);
+}
+
+.brokan:hover {
+  color: black;
+}
+
+.aamir {
+  width: 100%;
+  background-color: #c0bfbc;
+  height: 1px;
+}
+
+.tent {
+  font-size: 12px;
+}
+
+.tent {
+  width: 99%;
+}
+
+.Vivamus p {
+  color: rgb(12, 8, 8, 0.7);
+}
+
+.ankar-1 a:nth-child(1) {
+  background-color: #f4b200;
+  border: 1px solid #f4b200;
+  border-radius: 20px;
+}
+
+.ankar-1 a:nth-child(2) {
+  color: black;
+  background-color: white;
+  border: 2px solid rgba(53, 48, 48, 0.5);
+  border-radius: 20px;
+}
+
+.ankar-1 a:nth-child(2):hover {
+  background-color: black;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.section-4 {
+  padding: 100px 0px;
+  background-image: url(../images/5252idea99wheat-863392_960_720.jpg);
+
+  position: relative;
+}
+
+.section-4::after {
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  content: "";
+  inset: 0;
+
+  padding: 100px 0px;
+}
+
+.aaka {
+  position: relative;
+  z-index: 99;
+}
+
+.happy span {
+  font-size: 50px;
+  font-weight: 400 !important;
+  color: #6d6c69;
+}
+
+.happy p {
+  color: #6d6c69;
+}
+
+.section-5 {
+  padding: 100px 0px;
+}
+
+.hali-1 {
+  font-size: 16px;
+  color: #8c8c8c;
+}
+
+.New p {
+  font-size: 22px;
+}
+
+.New span {
+  color: #6d6c69;
+}
+
+.Join {
+  background-color: #f4b200;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.Become {
+  box-shadow: 2px 4px 39px -23px;
+}
+
+/* .section-6 */
+
+.section-6 {
+  padding: 100px 0px;
+  background-color: #faf9f6;
+}
+
+.img-1 {
+  border-radius: 69px;
+}
+
+.clna-1 a {
+  color: black;
+}
+
+.clna-1 p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.clna-1 {
+  line-height: 29px;
+  padding: 15px 13px;
+  box-shadow: -1px 5px 49px -24px;
+  border-radius: 10px;
+}
+
+.Show-1 {
+  border: 2px solid #f4b200;
+  border-radius: 30px;
+  color: #f4b200;
+}
+
+.Show-1:hover {
+  background-color: #f4b200;
+  color: #fff;
+}
+
+.Show-2 {
+  text-align: center;
+}
+
+/* section-7 */
+
+.section-7 {
+  padding: 100px 0px;
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.Decided h3 {
+  font-size: 33px;
+  font-weight: 400;
+}
+.Decided p {
+  font-size: 19px;
+  color: #9a9a9a;
+}
+
+.Decided a {
+  border: 2px solid #f4b200;
+  background-color: #f4b200;
+  color: #fff;
+  border-radius: 30px;
+}
+
+/* .section-8 */
+
+.section-8 {
+  padding: 100px 0px;
+}
+
+.hshshsh {
+  position: relative;
+  background-image: url(../images/img-couple-yacht.jpg);
+  background-size: cover;
+  padding: 250px 0px;
+  width: 100%;
+}
+
+.hshshsh::after {
+  background-color: rgba(8, 7, 7, 0.5);
+  position: absolute;
+  content: "";
+  inset: 0;
+  bottom: 0;
+}
+
+.hshjsjs-1 {
+  position: relative;
+  background-image: url(../images/img-male-mentoring.jpg);
+  background-size: cover;
+  padding: 250px 0px;
+  width: 100%;
+}
+
+.hshjsjs-1::after {
+  background-color: rgba(8, 7, 7, 0.5);
+  position: absolute;
+  content: "";
+  inset: 0;
+  bottom: 0;
+}
+
+.hshjsjs-2::after {
+  background-color: rgba(8, 7, 7, 0.5);
+  position: absolute;
+  content: "";
+  inset: 0;
+  bottom: 0;
+}
+
+.hshjsjs-2 {
+  position: relative;
+  background-image: url(../images/img-woman-standing.jpg);
+  background-size: cover;
+  padding: 250px 0px;
+  width: 100%;
+}
+
+.saaaa {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.block {
+  position: relative;
+  z-index: 99;
+}
+
+/* .section-8 */
+
+.section-9 {
+  padding: 100px 0px;
+}
+
+.Subscribe .inpur-1 {
+  width: 74%;
+  padding: 11px;
+  border-radius: 37px;
+  outline: none;
+  border: none;
+  color: black !important;
+  font-style: italic;
+  border: 2px solid #c8c7c5;
+}
+
+.Subscribe .butum {
+  border-radius: 30px;
+  border: 2px solid #f4b200;
+  background-color: #f4b200;
+  margin-left: 20px;
+}
+
+.Subscribe span {
+  color: #9e9e9c;
+}
+
+/* .section-10 */
+
+.section-10 {
+  padding: 100px 0px;
+}
+
+.icon-1 span {
+  font-size: 13px;
+}
+
+.Path {
+  background-color: #dfdfdf;
+  width: 100%;
+  height: 1px;
+  margin: 0 auto;
+}
+
+.btn-1 {
+  border: 2px solid;
+  color: #6c757d;
+  border-radius: 40px;
+  padding: 3px 22px;
+  transition: all 0.5s;
+}
+
+.btn-1:hover {
+  color: #ffff;
+  background-color: #6c757d;
+}
+
+/* .section-11 */
+
+.section-11 {
+  padding: 100px 0px;
+}
+
+.hello h3 {
+  font-size: 39px;
+}
+
+.hello a {
+  color: #ffff;
+  font-weight: 800;
+  background-color: #f4b200;
+  padding: 8px 26px;
+  border-radius: 40px;
+}
+
+/* .section-12 */
+
+/* .section-12{
+  padding: 100px 0px ;
+} */
+
+.section-13 {
+  padding: 100px 0px;
+  background-color: rgba(227, 150, 108, 0.8);
+}
+
+.nana {
+  margin-top: -20px;
+}
+
+.email a {
+  color: #f4b200;
+}
+
+.Phone a {
+  color: #000000;
+}
+
+.text input {
+  padding: 5px 10px;
+  width: 103%;
+  border: none;
+  border-radius: 5px;
+  border: 3px solid #cccccc;
+  outline: none;
+}
+
+.Name input {
+  padding: 5px 10px;
+  width: 103%;
+  border: none;
+  border-radius: 5px;
+  border: 3px solid #cccccc;
+  outline: none;
+}
+
+.Form .control {
+  outline: none;
+  width: 92%;
+  padding: 11px 12px;
+  border: 3px solid #cccccc;
+  border-radius: 5px;
+}
+
+.Message {
+  text-align: right;
+}
+
+.Message span {
+  background-color: #f4b200;
+  border-radius: 60px;
+}
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 991px) {
+  .happy {
+    text-align: center;
+  }
+
+  .img-2 {
+    margin-top: 30px;
+  }
+
+  .clna-1 {
+    margin-top: 20px !important;
+  }
+
+  .Become {
+    margin: 20px 0px;
+  }
+
+  .Show-1 {
+    width: 100%;
+  }
+
+  .Decided a {
+    width: 100%;
+  }
+
+  .btn-1 {
+    width: 100%;
+  }
+
+  .hello a {
+    width: 100%;
+  }
+
+  .Join {
+    width: 100%;
+  }
+
+  .Message span {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .happy {
+    text-align: center;
+  }
+
+  .ankar-1 a:nth-child(1) {
+    width: 100%;
+  }
+
+  .Decided a {
+    font-size: 10px;
+  }
+
+  .Decided h3 {
+    font-size: 19px;
+  }
+
+  .ankar-1 a:nth-child(2) {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .Morbi {
+    width: 100%;
+    text-align: center;
+  }
+
+  .Become {
+    margin: 20px 0px;
+  }
+
+  .clna-1 {
+    margin-top: 20px;
+  }
+
+  .sec-1 h1 {
+    font-size: 31px !important;
+    text-align: center;
+  }
+
+  .sec-1 p {
+    text-align: center;
+  }
+
+  .Show-1 {
+    width: 100%;
+  }
+
+  .inpur-1 {
+    width: 100% !important;
+  }
+
+  .Subscribe .butum {
+    width: 100%;
+    margin-left: 0px !important;
+    margin-top: 20px;
+  }
+
+  .Subscribe span {
+    text-align: center;
+  }
+
+  .kontrol {
+    flex-wrap: wrap;
+  }
+
+  .btn-1 {
+    width: 100%;
+  }
+
+  .hello a {
+    width: 100%;
+  }
+
+  .hello h3 {
+    font-size: 24px;
+  }
+
+  .Message span {
+    width: 100% !important;
+    display: block;
+    text-align: center;
+  }
+
+  .kontrol div > img {
+    margin: 20px 0px;
+  }
+}

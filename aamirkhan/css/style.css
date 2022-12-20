@@ -1,0 +1,1096 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body ::selection {
+  background-color: black;
+  color: #ffff;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none !important;
+}
+
+.bar {
+  position: fixed;
+  top: 0;
+
+  z-index: 99 !important;
+  width: 100%;
+}
+
+
+
+.hone {
+  color: black !important;
+  font-size: 13px;
+  font-weight: 600;
+  padding-right: 38px !important;
+  text-transform: uppercase;
+}
+
+.metu {
+  color: black !important;
+  font-size: 13px;
+  font-weight: 600;
+  padding-right: 38px !important;
+  text-transform: uppercase;
+}
+
+.ikan {
+  font-size: 17px !important;
+}
+
+.metu:hover {
+  color: #e56b59 !important;
+  text-decoration: underline 1px !important;
+}
+
+.hone {
+  color: #e56b59 !important;
+}
+
+.section-1 {
+  padding: 200px 0px;
+  background-image: url(../images/Screenshot_1.png);
+  background-size: cover;
+  font-style: italic;
+  background-position: right;
+}
+
+.tedt {
+  display: flex;
+  justify-content: center;
+}
+
+.center h1 {
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 84px;
+}
+
+.center p {
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.caakss {
+  margin-top: -100px;
+  margin-left: 50px;
+}
+
+.ssgvgsd {
+  display: flex;
+  align-items: center;
+}
+
+.ckass {
+  background-color: #d0e2e4;
+  width: 77%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.cka {
+  position: absolute;
+  top: -28px;
+  left: -23%;
+  width: 86%;
+}
+
+.woe h3 {
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 52px;
+  font-style: italic;
+}
+
+.woe p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+/* .aamir{
+color: #ffff !important;
+} */
+
+.your input:nth-child(1) {
+  border: 1px solid #ffff;
+  padding: 13px 19px !important;
+  width: 66% !important;
+  outline: none;
+  border: none;
+  font-style: italic;
+}
+
+.your input:focus {
+  border: 1px solid red;
+}
+
+.your button:nth-child(2) {
+  padding: 14px 28px !important;
+  background: #e45e4c;
+  color: #ffff;
+  border: 1px solid #e45e4c !important;
+  transition: all 0.5s;
+  text-transform: uppercase;
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+.your button:hover {
+  background-color: #ffff;
+  color: #e45e4c;
+}
+
+/* .section-3 */
+
+.section-3 {
+  padding: 50px 0px;
+}
+
+.section-4 {
+  padding: 100px 0px;
+}
+
+.notebook {
+  position: relative;
+}
+
+.beautiful {
+  position: absolute;
+  top: -7%;
+  left: 41%;
+}
+
+.Strategy {
+  width: 75%;
+}
+
+.Strategy span {
+  font-weight: 500;
+  color: red;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.Strategy h2 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 44px;
+}
+
+.Strategy p {
+  text-transform: lowercase;
+  font-weight: 500;
+  font-size: 17px;
+  font-style: italic;
+}
+
+.Strategy a {
+  color: #ffff;
+  background: #e45e4c;
+  padding: 19px 44px;
+  text-transform: uppercase;
+  font-size: 13px;
+  transition: all 0.5s;
+  font-weight: 500;
+}
+
+.Strategy a:hover {
+  transform: scale(0.9);
+}
+
+.finish {
+  background-color: #e56b59;
+  width: 20%;
+  height: 1px;
+}
+
+.ahsdgd img {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 600px;
+  transition: all 1s;
+  object-fit: cover;
+}
+
+.ahsdgd img:hover {
+  transform: rotate(720deg);
+}
+
+.find img {
+  transition: all 1s;
+}
+
+.section-6 :hover .find img {
+  transform: rotate(460deg) !important;
+}
+
+.ahsdgd p {
+  text-align: center;
+  margin-top: -40px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.section-6 {
+  padding: 100px 0px;
+  background-color: #d2e5e7;
+}
+
+/* .find{
+    width: 87%;
+} */
+.find h2 {
+  font-family: "GFS Didot", Sans-serif;
+  font-size: 107px;
+}
+
+.find h3 {
+  font-size: 46px;
+  font-weight: 400;
+  font-style: italic;
+  padding: 0px 40px;
+}
+
+.find span {
+  font-weight: 500;
+  color: #e45e4c;
+  text-transform: math-auto;
+  font-size: 14px;
+}
+
+.find img {
+  border-radius: 60px;
+  width: 9%;
+}
+
+.section-7 {
+  padding: 100px 0px;
+
+  background-image: url(../images/kobu-agency-7okkFhxrxNw-unsplash.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.section-7::after {
+  background-color: rgb(0, 0, 0, 0.8);
+  position: absolute;
+  inset: 0;
+  content: "";
+}
+
+.find-1 {
+  position: relative;
+  z-index: 99;
+}
+
+.find-1 span {
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.find-1 h2 {
+  font-size: 41px;
+  font-weight: normal;
+  color: #ffff;
+}
+
+.solid p {
+  color: black !important;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 0;
+}
+
+.eliment {
+  width: 30%;
+  height: 1px;
+  background-color: #fff;
+}
+
+.find-1 p {
+  text-transform: lowercase;
+  font-size: 15px;
+  color: #fff;
+}
+
+.tehite {
+  background-color: #ffff;
+  width: 68%;
+  position: absolute;
+  left: -33%;
+  padding: 16px 0px;
+}
+
+.solid span {
+  color: black;
+  font-size: 52px;
+  font-weight: bold;
+}
+
+@property --num {
+  syntax: "<integer>";
+  initial-value: 100;
+  inherits: false;
+}
+
+.bro {
+  transition: --num 5s;
+  counter-set: num var(--num);
+  font: 800 40px system-ui;
+}
+.bro::after {
+  content: counter(num);
+}
+.section-7:hover .bro {
+  --num: 900;
+}
+
+/* .section-8 */
+
+.section-8 {
+  padding: 100px 0px;
+}
+
+.Courses {
+  font-size: 46px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.happy p {
+  font-weight: initial;
+  font-style: italic;
+
+  font-size: 19px;
+}
+
+.sharp span {
+  font-size: 13px;
+  padding-left: 9px;
+}
+
+.market {
+  transition: all 1s;
+}
+
+.section-8:hover .market {
+  /* transform: rotate(721deg); */
+  transform: rotate(180deg) !important;
+}
+
+.center-1 {
+  transition: all 1s;
+}
+.section-8:hover .center-1 {
+  transform: rotateY(177deg);
+}
+
+.section-9 {
+  background-image: url(../images/sexy-woman-travel-countryside-alone-PSX5Z7V.jpg);
+  padding: 200px 0px;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+
+.section-9::after {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  inset: 0;
+  content: "";
+}
+
+.About h3 {
+  font-size: 106px;
+  color: #fff;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.About h2 {
+  font-size: 77px;
+  line-height: 12px;
+  color: #fff;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.eliter {
+  background-color: #fff;
+  width: 46%;
+  height: 1px;
+  /* margin-top: 30px; */
+}
+
+.About {
+  width: 77%;
+  position: relative;
+  z-index: 2;
+}
+
+.About p {
+  font-weight: 600;
+  color: #fff;
+  text-transform: lowercase;
+  line-height: 26px;
+}
+
+.About a {
+  color: black;
+  text-transform: uppercase;
+  background-color: #fff;
+  font-size: 12px;
+  transition: all 0.9s;
+  letter-spacing: 1px;
+}
+
+.About a:hover {
+  transform: scale(0.9);
+}
+
+.section-10 {
+  padding: 100px 0px;
+}
+
+.instagram h3 {
+  color: red;
+  line-height: 0px;
+  font-size: 16px;
+  text-transform: lowercase;
+}
+
+.instagram h2 {
+  font-weight: 400;
+  line-height: 90px;
+  font-size: 88px;
+  font-style: oblique;
+}
+
+.smiling {
+  transition: all 0.9s;
+}
+
+.section-10:hover .smiling {
+  transform: scale(0.9);
+}
+
+.finish-1 p {
+  font-weight: 600;
+  text-transform: lowercase;
+  font-style: italic;
+}
+
+.finish-1 a {
+  text-transform: uppercase;
+  color: black;
+  background-color: #d9dbd5;
+  font-weight: 500;
+  font-size: 12px;
+  transition: all 0.5s;
+  letter-spacing: 2px;
+}
+
+.finish-1 a:hover {
+  transform: scale(0.9);
+}
+
+.footer {
+  padding: 100px 0px;
+  background-color: #3a3f42;
+}
+
+.leading p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffff;
+}
+
+.leading {
+  width: 69%;
+}
+
+.span-1-1 span {
+  font-size: 28px;
+  color: #fff;
+}
+
+.about ul li a {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 47px;
+}
+.henf-1 {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 47px;
+}
+
+.login:hover {
+  color: #ffff;
+}
+
+.login {
+  line-height: 36px;
+  color: #ffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.between {
+  width: 67%;
+}
+
+.teeft {
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  text-align: right;
+}
+
+
+
+
+  .bar {
+    animation-name: bgcolor;
+    animation-duration: 0.9s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    position: fixed;
+    top: 0;
+  
+  }
+
+ 
+ 
+  
+  @keyframes bgcolor {
+    0% {
+      background-color: red;
+      
+      
+    }
+    25% {
+      background-color: yellow;
+    
+    }
+    50% {
+      background-color: blue;
+     
+    }
+    75% {
+      background-color: green;
+     
+    }
+    100% {
+      background-color: #00ccff;
+   
+    }
+ 
+  }
+  
+
+
+
+
+
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 991px) {
+  .caakss {
+    margin: 0;
+  }
+
+  
+
+  
+  
+
+
+  .your input:nth-child(1) {
+    width: 100% !important;
+    margin-bottom: 10px;
+    text-align: center !important;
+  }
+
+  .your button:nth-child(2) {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .coldman {
+    margin-bottom: 60px;
+  }
+  .cka {
+    position: absolute;
+    top: -93px;
+    left: 58%;
+    transform: rotate(15deg);
+    width: 53%;
+  }
+  .pn-1 div img {
+    margin-bottom: 20px;
+  }
+
+  .beautiful img {
+    width: 100%;
+  }
+
+  .beautiful {
+    position: absolute;
+    top: 1%;
+    left: 51%;
+  }
+
+  .Strategy {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .finish {
+    width: 100%;
+  }
+
+  .tehite {
+    margin: 0 !important;
+    width: 100%;
+  }
+
+  .tehite {
+    background-color: #ffff;
+
+    position: absolute;
+    left: 0%;
+    padding: 16px 0px;
+  }
+
+  .between {
+    width: 100%;
+  }
+  .teeft {
+    text-align: center;
+  }
+
+  .instagram h2 {
+    font-size: 38px;
+    font-weight: 900;
+  }
+
+  .section-1 {
+    padding: 100px 0px;
+  }
+
+  .finish-1 a {
+    width: 100%;
+  }
+
+  .find img {
+    border-radius: 74px;
+    width: 15%;
+  }
+
+  .smiling {
+    margin-bottom: 20px;
+  }
+
+  .eliter {
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+
+  .About a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .About {
+    width: 100%;
+  }
+
+  .happy {
+    margin-top: 20px;
+  }
+  .find h3 {
+    font-size: 34px;
+    font-weight: 900;
+  }
+
+  .Strategy a {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  
+  .bar{
+    animation-iteration-count: infinite;
+    transition-duration: 3s;
+    position: sticky;
+ 
+
+  
+  
+   
+    animation-name: bgcolor;
+    animation-duration: 1s;
+    background-color: gold;
+    position: relative;
+    transition-duration: 1s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+  
+  }
+  
+
+  
+ 
+  
+
+  .bar {
+  
+    border: 2px solid red;
+    animation-name: bgcolor;
+    animation-duration: 1s;
+    background-color: gold;
+    position: relative;
+    transition-duration: 1s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  .bar{
+    border: 1px solid green;
+  }
+  
+  @keyframes bgcolor {
+    0% {
+      background-color: red;
+      
+    }
+    25% {
+      background-color: yellow;
+     
+    }
+    50% {
+      background-color: blue;
+     
+    }
+    75% {
+      background-color: green;
+    
+    }
+    100% {
+      background-color: red;
+     
+    }
+  }
+  
+
+}
+
+@media (max-width: 767px) {
+
+  .eliment {
+    width: 100%;
+  }
+
+  .bar{
+    animation-iteration-count: infinite;
+    transition-duration: 3s;
+    animation-name: bgcolor;
+    animation-duration: 1s;
+    background-color: gold;
+    position: relative;
+    transition-duration: 1s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+  
+  }
+
+  .bar {
+  
+    border: 2px solid red;
+    animation-name: bgcolor;
+    animation-duration: 1s;
+    background-color: gold;
+    position: relative;
+    transition-duration: 1s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  .bar{
+    border: 1px solid green;
+  }
+  
+  @keyframes bgcolor {
+    0% {
+      background-color: red;
+      
+    }
+    25% {
+      background-color: yellow;
+     
+    }
+    50% {
+      background-color: blue;
+     
+    }
+    75% {
+      background-color: green;
+    
+    }
+    100% {
+      background-color: red;
+     
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .tehite {
+    width: 100%;
+
+    left: 0%;
+    margin-top: 0px !important;
+    padding: 2px 0px;
+  }
+  .Strategy a {
+    width: 100% !important;
+    text-align: center;
+  }
+  .pn-1 div img {
+    margin: 10px 0px;
+  }
+
+  .find h3 {
+    font-size: 17px;
+  }
+  .Courses {
+    font-size: 25px;
+    font-weight: 900;
+  }
+
+  .section-4 {
+    padding: 36px 0px;
+  }
+  .find-1 h2 {
+    font-size: 20px;
+  }
+
+  .section-6 {
+    padding: 8px 0px;
+  }
+
+  .find img {
+    border-radius: 60px;
+    width: 22%;
+  }
+
+  .bar {
+    background-color: #fff;
+  }
+
+  .center {
+    text-align: center;
+    color: #ffff;
+  }
+
+  .your input:nth-child(1) {
+    width: 100% !important;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .woe h3 {
+    text-align: center;
+  }
+
+  .woe p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 17px;
+  }
+
+  .your button:nth-child(2) {
+    width: 100%;
+    margin: 0px;
+  }
+  .ckass {
+    margin-top: 20px;
+  }
+
+  .Strategy {
+    margin-top: 23px;
+  }
+
+  .Strategy h2 {
+    font-size: 19px;
+  }
+  .center h1 {
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 26px;
+  }
+
+  .happy {
+    margin-top: 20px;
+  }
+
+  .finish {
+    width: 100%;
+  }
+
+  .beautiful {
+    position: absolute;
+    top: 0%;
+    left: 51%;
+  }
+  .finish {
+    width: 100% !important;
+    margin: 16px 0px !important;
+  }
+
+  .section-8 {
+    padding: 36px 0px;
+  }
+
+  .About h3 {
+    font-size: 48px;
+  }
+
+  .About h2 {
+    font-size: 36px;
+  }
+
+  .eliter {
+    width: 100%;
+    margin-left: 0px !important;
+  }
+
+  .section-10 {
+    padding: 10px 0px;
+  }
+
+  .instagram h3 {
+    line-height: 52px;
+  }
+
+  .instagram h2 {
+    font-weight: 400;
+    line-height: 0px;
+    font-size: 43px;
+  }
+
+  .beautiful img {
+    width: 100%;
+    height: 293px;
+  }
+
+  .Strategy p {
+    text-transform: lowercase;
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  .About {
+    width: 100%;
+  }
+
+  .smiling {
+    margin-top: 10px;
+  }
+
+  .between {
+    margin-top: 20px;
+    width: 85%;
+  }
+
+  .finish-1 a {
+    width: 100%;
+  }
+
+  .about ul li a,
+  .henf-1 {
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .About a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .teeft {
+    text-align: center;
+  }
+
+  .find-1 {
+    text-align: center;
+  }
+
+  .ckass {
+    width: 100% !important;
+  }
+
+  .caakss {
+    margin: 1px !important;
+    margin: 1px !important;
+  }
+
+  .coldman {
+    margin-bottom: 30px;
+  }
+  .woe {
+    margin-top: 60px;
+  }
+
+  .woe h3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .cka {
+    position: absolute;
+    top: -19px;
+    left: -4%;
+    transform: rotate(15deg);
+    width: 39%;
+  }
+}
